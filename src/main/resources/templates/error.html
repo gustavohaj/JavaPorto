@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Erro</title>
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="text-danger"> Ocorreu o seguinte erro:</h1>
+		<div class="alert alert-danger">
+			<span th:text="${msg_erro}"></span>		
+		</div>
+	</div>
+</body>
+</html>
